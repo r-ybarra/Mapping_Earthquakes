@@ -23,10 +23,10 @@ let baseMaps = {
 
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
-    center: [43.7, -79.3],
-    zoom: 11,
-    layers: [satelliteStreets]
-})
+    center: [39.5, 98.3],
+    zoom: 3,
+    layers: [streets]
+});
 
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
